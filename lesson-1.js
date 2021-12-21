@@ -6,7 +6,7 @@ const secondNumber = process.argv[3];
 let counter = 0;
 let textColor = 'red';
 
-if(isNaN(firstNumber) || isNaN(secondNumber) || firstNumber <= 0 || secondNumber <= 0){
+if(isNaN(firstNumber) || isNaN(secondNumber) || firstNumber <= 1 || secondNumber <= 1){
     console.log(colors.red('Введенные данные не являются положительными числами!'));
     console.log(firstNumber, secondNumber);
 } else {
